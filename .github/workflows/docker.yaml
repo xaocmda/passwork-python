@@ -9,6 +9,7 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
+    environment: cli_docker
 
     steps:
       - name: Checkout
