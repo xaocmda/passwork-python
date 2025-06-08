@@ -1,7 +1,7 @@
 FROM python:3.11-slim AS builder
 WORKDIR /app
 COPY . .
-RUN pip install --prefix=/install --no-deps --no-cache-dir .
+RUN pip install --prefix=/install --no-cache-dir .
 
 FROM python:3.11-slim
 
