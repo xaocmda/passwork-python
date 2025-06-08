@@ -1,4 +1,4 @@
-# Passwork CLI Docker Container ![Docker Build](https://github.com/xaocmda/passwork-cli/actions/workflows/docker.yml/badge.svg)
+# Passwork CLI Docker Container ![Docker Build](https://github.com/xaocmda/passwork-cli/actions/workflows/docker.yaml/badge.svg)
 
 This directory contains Docker configuration for running Passwork CLI in a containerized environment, which is particularly useful for CI/CD pipelines in Bitbucket or other CI systems.
 
