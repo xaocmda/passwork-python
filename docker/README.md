@@ -1,4 +1,4 @@
-# Passwork CLI Docker Container
+# Passwork CLI Docker Container ![Docker Build](https://github.com/xaocmda/passwork-cli/actions/workflows/docker.yml/badge.svg)
 
 This directory contains Docker configuration for running Passwork CLI in a containerized environment, which is particularly useful for CI/CD pipelines in Bitbucket or other CI systems.
 
@@ -97,6 +97,7 @@ pipelines:
 ```
 
 Don't forget to set up repository variables in Bitbucket:
+
 - `PASSWORK_HOST`
 - `PASSWORK_TOKEN`
 - `PASSWORK_MASTER_KEY`
@@ -105,4 +106,5 @@ Don't forget to set up repository variables in Bitbucket:
 
 - The Docker image runs as a non-root user for improved security
 - Always use secure environment variables in CI/CD pipelines for your credentials
-- Consider using refresh tokens for long-running pipelines 
+- Consider using refresh tokens for long-running pipelines
+
